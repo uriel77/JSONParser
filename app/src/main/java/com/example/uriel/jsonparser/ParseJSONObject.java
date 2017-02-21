@@ -1,5 +1,7 @@
 package com.example.uriel.jsonparser;
 
+import android.os.Bundle;
+import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -27,4 +29,11 @@ public class ParseJSONObject extends AppCompatActivity {
     private String photoUrl;
 
     String url = "https://androidtutorialpoint.com/api/MobileJSONObject.json";
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_parsejsonobcet);
+        //inicializar todos los elementos de la clase
+    }
 }
